@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-color:#f0f4fc;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.main{
+    width: 45%;
+}
+.first-line{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+.content{
+    background-color: #f3f3f3;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: #f7f9fe solid 1px;
+}
+.side-bar{
+    padding: 15px 0;
+    width: 18%;
+}
+.large{
+    font-size: 22px;
+}
+.bold{
+    font-weight: bolder;
+}
+.blue{
+    color:  rgb(51, 87, 192);
+}
+.gray{
+    color: #909090;
+}
+.dark-blue{
+    color:rgb(2, 25, 89);
+}
+.inline-space{
+    display: flex;
+    gap:50px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.btn2{
+    padding: 1px 12px;
+    border-radius:30px ;
+    text-align: center;
+    display: inline-block;
+}
+.btn{
+    padding: 10px 15px;
+    border-radius:30px ;
+    text-align: center;
+    display: inline-block;
+}
+.yellow-btn{
+    color: #faf2d5;
+    background-color:#fe9f01;
+}
+.green-btn{
+    color: #faf2d5;
+    background-color: #00a550;
+}
+.gray-btn{
+   color: gray;
+   background-color: #f2f7ff;
+}
+.green{
+    color: #00a550;
+}
+.orange{
+    color:#fe9f01;
+}
+.sub{
+    display: inline-block;
+    background-color: #f3f3f3;
+    padding: 15px;
+}
+.separator{
+    height: 40px;
+}
+/* EXCERCISE-12-CSS-START*/
+.show-details-button{
+    display: inline-block;
+    cursor: pointer;
+}
+.hidden-content{
+ /* visibility: hidden; */
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+    background-color: #f3f3f3;
+}
+.show {
+ /* visibility: visible; */
+    max-height: 100%; 
+}
+/* EXCERCISE-12-CSS-END */
+
